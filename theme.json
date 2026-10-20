@@ -21,7 +21,7 @@
       "id": "background",
       "type": "background",
       "paint": {
-        "background-color": "#1E1712"
+        "background-color": "rgb(12,12,12)"
       }
     },
     {
@@ -42,7 +42,7 @@
       ],
       "paint": {
         "fill-antialias": false,
-        "fill-color": "#121A1B"
+        "fill-color": "rgb(42, 128, 185)"
       }
     },
     {
@@ -63,7 +63,7 @@
         ["==", ["get", "subclass"], "ice_shelf"]
       ],
       "paint": {
-        "fill-color": "#1E1712",
+        "fill-color": "rgb(12,12,12)",
         "fill-opacity": 0.7
       }
     },
@@ -85,7 +85,7 @@
         ["==", ["get", "subclass"], "glacier"]
       ],
       "paint": {
-        "fill-color": "#1A1410",
+        "fill-color": "hsl(0,1%,2%)",
         "fill-opacity": [
           "interpolate",
           ["linear"],
@@ -114,8 +114,8 @@
         ["==", ["get", "class"], "residential"]
       ],
       "paint": {
-        "fill-color": "#231C16",
-        "fill-opacity": 0.85
+        "fill-color": "rgb(25,25,28)",
+        "fill-opacity": 0.8
       }
     },
     {
@@ -135,8 +135,8 @@
         ["==", ["get", "class"], "wood"]
       ],
       "paint": {
-        "fill-color": "#1B2117",
-        "fill-opacity": 0.6
+        "fill-color": "rgb(32,32,32)",
+        "fill-opacity": 0.5
       }
     },
     {
@@ -156,8 +156,7 @@
         ["==", ["get", "class"], "park"]
       ],
       "paint": {
-        "fill-color": "#1B2117",
-        "fill-opacity": 0.7
+        "fill-color": "rgb(32,32,32)"
       }
     },
     {
@@ -173,7 +172,7 @@
         false
       ],
       "paint": {
-        "line-color": "#121A1B",
+        "line-color": "rgb(42, 128, 185)",
         "line-width": 1.5
       }
     },
@@ -192,8 +191,8 @@
       ],
       "paint": {
         "fill-antialias": true,
-        "fill-color": "#291F17",
-        "fill-outline-color": "#150E09"
+        "fill-color": "rgb(32,32,38)",
+        "fill-outline-color": "rgb(65,65,75)"
       }
     },
     {
@@ -224,9 +223,9 @@
         "line-join": "round"
       },
       "paint": {
-        "line-color": "#3A1C1A",
+        "line-color": "rgb(90,90,98)",
         "line-dasharray": [1.5, 1.5],
-        "line-opacity": 0.75,
+        "line-opacity": 1.0,
         "line-width": [
           "interpolate",
           ["exponential", 1.2],
@@ -268,8 +267,8 @@
         "line-join": "round"
       },
       "paint": {
-        "line-color": "#3A1C1A",
-        "line-opacity": 0.85,
+        "line-color": "#585864",
+        "line-opacity": 1.0,
         "line-width": [
           "interpolate",
           ["exponential", 1.4],
@@ -310,7 +309,7 @@
         "line-join": "miter"
       },
       "paint": {
-        "line-color": "#422D1F",
+        "line-color": "rgba(255,255,255,0.95)",
         "line-width": [
           "interpolate",
           ["exponential", 1.3],
@@ -351,7 +350,7 @@
         "line-join": "round"
       },
       "paint": {
-        "line-color": "#3A1C1A",
+        "line-color": "hsl(0,0%,20%)",
         "line-width": [
           "interpolate",
           ["exponential", 1.3],
@@ -386,7 +385,7 @@
         "line-join": "miter"
       },
       "paint": {
-        "line-color": "#422D1F",
+        "line-color": "rgba(255,255,255,1.0)",
         "line-width": [
           "interpolate",
           ["exponential", 1.4],
@@ -421,7 +420,7 @@
         "line-join": "round"
       },
       "paint": {
-        "line-color": "#3A1C1A",
+        "line-color": "#282830",
         "line-width": [
           "interpolate",
           ["exponential", 1.4],
@@ -455,7 +454,7 @@
         "line-join": "round"
       },
       "paint": {
-        "line-color": "#0E0A07",
+        "line-color": "rgb(90,90,100)",
         "line-width": [
           "interpolate",
           ["exponential", 1.3],
@@ -489,7 +488,7 @@
         "line-join": "round"
       },
       "paint": {
-        "line-color": "#1E1712",
+        "line-color": "rgb(12,12,12)",
         "line-dasharray": [3, 3],
         "line-width": [
           "interpolate",
@@ -515,7 +514,7 @@
         "line-join": "round"
       },
       "paint": {
-        "line-color": "#0E0A07",
+        "line-color": "hsl(0,0%,40%)",
         "line-width": 1.8
       }
     },
