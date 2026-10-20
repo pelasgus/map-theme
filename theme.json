@@ -517,6 +517,25 @@
         "line-color": "hsl(0,0%,40%)",
         "line-width": 1.8
       }
+    },
+    {
+      "id": "poi_label",
+      "type": "symbol",
+      "source": "openmaptiles",
+      "source-layer": "poi",
+      "minzoom": 14,
+      "layout": {
+        "text-field": ["get", "name"],
+        "text-font": ["Didot Regular", "Arial Unicode MS Regular"],
+        "text-size": 12,
+        "text-anchor": "top",
+        "text-offset": [0, 1]
+      },
+      "paint": {
+        "text-color": "#e2e8f0",
+        "text-halo-color": "#0f172a",
+        "text-halo-width": 1.5
+      }
     }
   ]
 }
