@@ -181,7 +181,7 @@
       "type": "fill",
       "source": "openmaptiles",
       "source-layer": "building",
-      "minzoom": 13,
+      "minzoom": 12.5,
       "filter": [
         "match",
         ["geometry-type"],
@@ -200,6 +200,7 @@
       "type": "line",
       "source": "openmaptiles",
       "source-layer": "transportation",
+      "minzoom": 11,
       "filter": [
         "all",
         [
@@ -222,15 +223,17 @@
         "line-join": "round"
       },
       "paint": {
-        "line-color": "rgb(55,55,60)",
+        "line-color": "rgb(180,180,190)",
         "line-dasharray": [1.5, 1.5],
-        "line-opacity": 0.95,
+        "line-opacity": 1.0,
         "line-width": [
           "interpolate",
           ["exponential", 1.2],
           ["zoom"],
-          10,
+          11,
           1.2,
+          12.5,
+          2.2,
           20,
           9
         ]
@@ -241,6 +244,7 @@
       "type": "line",
       "source": "openmaptiles",
       "source-layer": "transportation",
+      "minzoom": 10,
       "filter": [
         "all",
         [
@@ -263,16 +267,16 @@
         "line-join": "round"
       },
       "paint": {
-        "line-color": "#45454d",
+        "line-color": "#b0b0bc",
         "line-opacity": 1.0,
         "line-width": [
           "interpolate",
           ["exponential", 1.4],
           ["zoom"],
-          8,
-          0.9,
-          12,
-          2.2,
+          10,
+          1.2,
+          12.5,
+          2.6,
           20,
           24
         ]
@@ -305,15 +309,15 @@
         "line-join": "miter"
       },
       "paint": {
-        "line-color": "rgba(255,255,255,0.9)",
+        "line-color": "rgba(255,255,255,0.95)",
         "line-width": [
           "interpolate",
           ["exponential", 1.3],
           ["zoom"],
           8,
           2.8,
-          12,
-          4.8,
+          12.5,
+          5.0,
           20,
           26
         ]
@@ -346,15 +350,15 @@
         "line-join": "round"
       },
       "paint": {
-        "line-color": "hsl(0,0%,24%)",
+        "line-color": "hsl(0,0%,20%)",
         "line-width": [
           "interpolate",
           ["exponential", 1.3],
           ["zoom"],
           8,
           1.6,
-          12,
-          3.2,
+          12.5,
+          3.4,
           20,
           23
         ]
@@ -388,8 +392,8 @@
           ["zoom"],
           6,
           2.8,
-          12,
-          5.5,
+          12.5,
+          6.0,
           20,
           42
         ]
@@ -416,15 +420,15 @@
         "line-join": "round"
       },
       "paint": {
-        "line-color": "#303036",
+        "line-color": "#282830",
         "line-width": [
           "interpolate",
           ["exponential", 1.4],
           ["zoom"],
           6,
           1.6,
-          12,
-          3.8,
+          12.5,
+          4.0,
           20,
           32
         ]
@@ -450,14 +454,14 @@
         "line-join": "round"
       },
       "paint": {
-        "line-color": "rgb(80,80,90)",
+        "line-color": "rgb(90,90,100)",
         "line-width": [
           "interpolate",
           ["exponential", 1.3],
           ["zoom"],
           8,
           1.6,
-          12,
+          12.5,
           3.2,
           20,
           7.5
@@ -492,7 +496,7 @@
           ["zoom"],
           8,
           1.0,
-          12,
+          12.5,
           2.0,
           20,
           5
