@@ -223,9 +223,9 @@
         "line-join": "round"
       },
       "paint": {
-        "line-color": "rgb(180,180,190)",
+        "line-color": "rgb(75,75,82)",
         "line-dasharray": [1.5, 1.5],
-        "line-opacity": 1.0,
+        "line-opacity": 0.75,
         "line-width": [
           "interpolate",
           ["exponential", 1.2],
@@ -267,8 +267,8 @@
         "line-join": "round"
       },
       "paint": {
-        "line-color": "#b0b0bc",
-        "line-opacity": 1.0,
+        "line-color": "#484852",
+        "line-opacity": 0.85,
         "line-width": [
           "interpolate",
           ["exponential", 1.4],
@@ -276,7 +276,7 @@
           10,
           1.2,
           12.5,
-          2.6,
+          2.4,
           20,
           24
         ]
