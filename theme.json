@@ -42,7 +42,7 @@
       ],
       "paint": {
         "fill-antialias": false,
-        "fill-color": "rgb(42, 128, 185)"
+        "fill-color": "rgb(0, 191, 255)"
       }
     },
     {
@@ -172,7 +172,7 @@
         false
       ],
       "paint": {
-        "line-color": "rgb(42, 128, 185)",
+        "line-color": "rgb(0, 191, 255)",
         "line-width": 1.5
       }
     },
